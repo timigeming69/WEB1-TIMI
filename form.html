@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<head>
+    <title>Learning HTML Forms</title>
+</head>
+<body>
+
+    <h1>Registration Form</h1>
+    <form action="process.php" method="POST">
+        <fieldset>
+            <legend>Personal Data:</legend>
+        <!-- Input type text-->
+        <label for="fname">First Name: </label><br>
+        <input type="text" id="fname" name="fname"><br>
+        <label for="lname">Last Name: </label><br>
+        <input type="text" id="lname" name="lname"><br><br>
+ 
+        <!-- Input type password-->
+        <label for="password">Password</label>
+        <input type="password" id="password" name="password">
+        
+        <!-- Input type radio-->
+        <p>Choose your gender:</p>
+        <input type="radio" id="male" name="gender" value="male"
+        <label for="male">Male</label>
+        <input type="radio" id="female" name="gender" value="Female"
+        <label for="female">Female</label>
+
+        <!-- Input type checkbox-->
+        <p>Choose your hobbies: </p>
+        <input type="checkbox" id="hobby1" name="hobby1" value="Badminton">
+        <label for="hobby1">Badminton</label><br>
+        <input type="checkbox" id="hobby2" name="hobby2" value="Futsal">
+        <label  for="hobby2">Futsal</label><br>
+        <input type="checkbox" id="hobby3" name="hobby3" value="Football">
+        <label for="hobby3">Football</label><br>
+        <input type="checkbox" id="hobby4" name="hobby4" value="Basletball">
+        <label for="hobby4">Basketball</label><br><br>
+
+        <!--Select Element-->
+        <label for="religion">Choose your religion</label>
+        <select id="religion" name="religion">
+            <option value="Christian">Christian</option><br>
+            <option value="Moslem">Moslem</option><br>
+            <option value="Budhist">Budhist</option><br>
+            <option value="Hindu">Hindu</option><br>
+        </select>
+
+        <br><br>
+
+        <!-- Input type color-->
+        <input type="color" id="color" name="color">
+        <label for="color">Color</label><br><br>
+
+        <!-- Input type date-->
+        <input type="date" id="date" name="date">
+        <label for="date">Date</label><br><br>
+
+        <!-- Input type datetime-local-->
+        <input type="datetime-local" id="date1" name="date1">
+        <label for="date1">Local</label><br><br>
+
+        <!-- Input type email-->
+        <input type="email" id="email" name="email">
+        <label for="email">Email</label><br><br>
+
+        <!-- Input type file-->
+        <input type="file" id="file" name="file">
+        <label for="file">FIle</label><br><br>
+
+        <!-- Input type hidden-->
+        <input type="hidden" id="hidden" name="hidden">
+        <label for="hidden">Hidden</label><br><br>
+
+        <!-- Input type Month-->
+        <input type="month" id="month" name="month">
+        <label for="month">Month</label><br><br>
+
+        <!-- Input type Number-->
+        <input type="number" id="number" name="number">
+        <label for="number">Number</label><br><br>
+
+        <!-- Input type range-->
+        <input type="range" id="range" name="range">
+        <label for="range">Range</label><br><br>
+
+        <!-- Input type Search-->
+        <input type="search" id="search" name="search">
+        <label for="search">Search Bar</label><br><br>
+
+        <!-- Input type tel-->
+        <input type="tel" id="tel" name="tel">
+        <label for="tel">tel</label><br><br>
+
+        <!-- Input type URL-->
+        <input type="URL" id="URL" name="URL">
+        <label for="URL">URL</label><br><br>
+
+        <!-- Input type Week-->
+        <input type="Week" id="Week" name="Week">
+        <label for="Week">Week</label><br><br>
+
+        <!-- Input type Search-->
+        <input type="time" id="time" name="time">
+        <label for="time">Time</label><br><br>
+
+        <!-- Textarea element-->
+        <label for="comment">Write your comment below:</label><br>
+        <textarea id="comment" name="comment" rows="10" cols="30"></textarea>
+
+        <br><br>
+        <!-- Input type submit-->
+        <input type="submit">
+
+        <!-- Input type reset-->
+        <input type="reset">
+
+    </fieldset>
+    </form>
+    
+</body>
+</html>
