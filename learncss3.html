@@ -43,6 +43,36 @@
             color: deeppink;
         }
 
+        ul.a{
+            list-style-type:square ;
+            list-style-position: inside;
+            background-color: pink;
+            border: solid 2px black;
+        }
+        ul li{
+            background-color: blue;
+        }
+        ul.nav{
+            list-style-type:none ;
+            margin: 0;
+            padding: 0;
+            width: 150px;
+            background-color: #F1F1F1;
+        }
+    ul.nav li a{
+        display: block;
+        color: #000;
+        background-color: #F1F1F1;
+        border-radius: 0;
+        border: none;
+        padding: 8px 16px;
+        text-decoration: none;
+    }
+    ul.nav a:hover{
+        background-color: #555;
+        color: white;
+    }
+
     </style>
 </head>
 <body>
@@ -51,6 +81,21 @@
     <a href="https://google.com">Link to Google</a>
     <a class="a1" href="https://fti.unai.edu">Link to FTI UNAI</a>
     <a class="a2" href="https://online.unai.edu">Link to UNAI Website</a>
+
+    <p>My Favourite Foods: </p>
+    <ul class="a">
+        <li>Fried Rice</li>
+        <li>Rendang</li>
+        <li>Fried Noodle</li>
+        <li>Black Pepper</li>
+    </ul>
+
+    <ul class="nav">
+        <li><a href="hello.html">Home</a></li>
+        <li><a href="https://fti.unai.edu">FTI UNAI</a></li>
+        <li><a href="https://unai.edu">UNAI</a></li>
+        <li><a href="about.html">About</a></li>
+    </ul>
 
 </body>
 </html>
